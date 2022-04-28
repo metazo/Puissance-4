@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&family=Righteous&display=swap');
+
+body{
+  text-align: center;
+}
+
+#game {
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(5, 5, 87);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Righteous', cursive;
+  margin-right: 86px;
+}
+
+.col {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #b5bcc0;
+  margin:5px;
+  display: inline-block;
+}
+
+.col empty {
+  cursor: pointer;
+}
+
+.col.red {
+  background-color: red;
+
+}
+
+.col.yellow{
+  background-color: yellow;
+}
+
+.col.pred{
+  background-color: darkred;
+}
+
+.col.pyellow{
+  background-color: darkgoldenrod;
+}
